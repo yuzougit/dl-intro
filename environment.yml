@@ -20,5 +20,6 @@ dependencies:
   - nbformat 
   - jupyter_client 
   - ipykernel
+  - requests
   - pip:
     - version-information 
