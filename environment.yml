@@ -15,7 +15,6 @@ dependencies:
   - nbconvert 
   - nbformat 
   - numpy
-  - opencv-python
   - pathlib 
   - pytest
   - pytest-cov
@@ -25,4 +24,5 @@ dependencies:
   - tensorflow
   - tqdm
   - pip:
+    - opencv-python
     - version-information 
