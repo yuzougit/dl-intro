@@ -30,6 +30,8 @@ def run_notebook(in_filepath):
 
 print("Running Notebooks...")
 
+# Remove recursive
+# for filename in glob.glob('../**/**/*.ipynb', recursive=True):
 for filename in glob.glob('../**/**/*.ipynb', recursive=True):
     print(filename)
     run_notebook(Path(filename))

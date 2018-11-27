@@ -3,24 +3,26 @@ channels:
   - conda-forge 
 dependencies:
   - python=3.6
-  - numpy
-  - matplotlib
-  - scikit-learn
-  - importnb
-  - h5py 
-  - tensorflow
-  - scikit-image
-  - pytest
   - black
-  - pytest-cov
   - coverage
   - flake8
-  - pathlib 
+  - h5py 
+  - importnb
+  - ipykernel
+  - jupyter_client 
+  - keras
+  - matplotlib
   - nbconvert 
   - nbformat 
-  - jupyter_client 
-  - ipykernel
+  - numpy
+  - opencv-python
+  - pathlib 
+  - pytest
+  - pytest-cov
   - requests
+  - scikit-image
+  - scikit-learn
+  - tensorflow
   - tqdm
   - pip:
     - version-information 
