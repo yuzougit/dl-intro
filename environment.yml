@@ -6,7 +6,7 @@ dependencies:
   - black
   - coverage
   - flake8
-  - h5py=1.10.2 
+  - h5py=2.8.0
   - importnb
   - ipykernel=5.1.0
   - ipywidgets=7.4.2
