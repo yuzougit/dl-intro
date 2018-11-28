@@ -6,23 +6,24 @@ dependencies:
   - black
   - coverage
   - flake8
-  - h5py 
+  - h5py=1.10.2 
   - importnb
-  - ipykernel
-  - jupyter_client 
-  - keras
-  - matplotlib
-  - nbconvert 
-  - nbformat 
-  - numpy
-  - pathlib 
-  - pytest
+  - ipykernel=5.1.0
+  - ipywidgets=7.4.2
+  - jupyter_client
+  - keras=2.2.4
+  - matplotlib=3.0.1
+  - nbconvert=5.3.1
+  - nbformat=4.4.0
+  - numpy=1.15.4
+  - pathlib
+  - pytest=4.0.0
   - pytest-cov
   - requests
-  - scikit-image
-  - scikit-learn
-  - tensorflow
-  - tqdm
+  - scikit-image=0.14.0
+  - scikit-learn=0.20.0
+  - tensorflow=1.12.0
+  - tqdm=4.28.1
   - pip:
-    - opencv-python
+    - opencv-python=3.4.3.18
     - version-information 
