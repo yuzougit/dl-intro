@@ -32,8 +32,9 @@ print("Running Notebooks...")
 
 # Remove recursive
 # for filename in glob.glob('../**/**/*.ipynb', recursive=True):
-for filename in glob.glob('../**/**/*.ipynb', recursive=True):
+for filename in glob.glob('../**/**/*.ipynb', recursive=False):
     print(filename)
-    run_notebook(Path(filename))
+    if filename == '../dl-intro/coursera_deep_learning_specialization':
+        run_notebook(Path(filename))
 
 print("Execution Complete!!!")
